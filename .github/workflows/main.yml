@@ -1,0 +1,25 @@
+name: hello-world-workflow
+on: 
+  push: 
+jobs:
+  job1:
+    runs-on: windows-latest
+    steps:
+      - name: First step
+        run: echo "Hello Mostafa"
+      - name: Second step
+        run: echo "Hello Mostafa 2"
+  job2:
+    runs-on: windows-latest
+    steps:
+      - name: Third step
+        run: echo "Hello Mostafa 3"
+      - name: Fourth step
+        run: echo "Hello Mostafa 2 again"
+  job3:
+    runs-on: windows-latest
+    steps:
+      - name: Fifth step
+        run: echo "Hello WE"
+      - name: Sixth step
+        run: echo "Hello WE 2"
